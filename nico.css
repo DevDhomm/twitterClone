@@ -2,15 +2,14 @@
 .Nico {
   background-color: rgb(0, 0, 0);
   height: 100vh;
+  width: 16.75rem;
   padding: 0;
   margin: 0;
 
   color: white;
   font-size: 17px;
 }
-* {
-  font-family: "poppins", sans-serif;
-}
+
 .logo {
   position: relative;
   left: 0.9375rem;
@@ -18,11 +17,11 @@
 .logo img {
   height: 2.5rem;
 }
-nav ul {
+ul {
   list-style: none;
   padding-left: 0.625rem;
 }
-nav ul li a {
+.Nico nav ul li a {
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -36,10 +35,10 @@ nav ul li a {
   border-radius: 50px;
   transition: 0.4s;
 }
-nav ul li a:hover {
+.Nico nav ul li a:hover {
   background-color: #ffffff2a;
 }
-nav ul li a img {
+.Nico nav ul li a img {
   height: 1.875rem;
 }
 a button {

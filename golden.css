@@ -1,0 +1,134 @@
+/* .sidebar {
+  width: 18.75rem;
+  padding: 20px 0 0 0;
+  margin: 0 auto;
+} */
+.search-box {
+  width: 18.75rem;
+  border: 1px solid #ffffff36;
+
+  margin: 0 auto 18px auto;
+  display: flex;
+  align-items: center;
+  background: #050505;
+  border-radius: 9999px;
+  padding: 8px 16px;
+  position: fixed;
+  top: 5px;
+}
+.search-box input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 16px;
+  width: 100%;
+  margin-left: 8px;
+}
+.premium-box {
+  background: #05050500;
+  border: 1px solid #ffffff36;
+  border-radius: 18px;
+  padding: 1rem;
+  width: 18.75rem;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+}
+.premium-box h2 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 0 8px 0;
+}
+.premium-box p {
+  font-size: 15px;
+  color: #d9d9d9;
+  margin: 0 0 12px 0;
+}
+.premium-box button {
+  background: #1d9bf0;
+  color: #fff;
+  border: none;
+  border-radius: 9999px;
+  padding: 8px 22px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.whats-happening {
+  background: #05050500;
+  border: 1px solid #ffffff36;
+  border-radius: 18px;
+  padding: 1rem;
+  margin: 0 0 18px 0;
+  width: 18.75rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.whats-happening h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 12px 0;
+}
+.live-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.live-section img {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  margin-right: 10px;
+  object-fit: cover;
+  background: #444;
+}
+.live-section .live-info {
+  display: flex;
+  flex-direction: column;
+}
+.live-section .live-title {
+  font-weight: 600;
+  font-size: 15px;
+}
+.live-section .live-status {
+  color: #1d9bf0;
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 2px;
+}
+.trend-item {
+  margin-bottom: 16px;
+}
+.trend-category {
+  font-size: 13px;
+  color: #6e767d;
+}
+.trend-title {
+  font-weight: 700;
+  font-size: 15px;
+  margin: 2px 0;
+  color: #d9d9d9;
+}
+.trend-count {
+  font-size: 13px;
+  color: #6e767d;
+}
+.trend-hash {
+  color: #1d9bf0;
+  font-weight: 700;
+  font-size: 15px;
+  margin: 2px 0;
+}
+.show-more {
+  color: #1d9bf0;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 8px;
+  display: inline-block;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+}
