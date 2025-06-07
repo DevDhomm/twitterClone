@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;;
+}
+body{
+    margin: 0;
+    background-color: #1a1d21;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.logo{
+    width: 40px;
+}
+.connexion{
+    background-color: #000;
+    color: white;
+    padding: 20px;
+    border-radius: 35px;
+    width: 600px;
+    text-align: center;
+}
+
+
+h2{
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.googlelink{
+    background-color: white;
+    color: black;
+    margin-bottom: 16px;
+}
+
+.googlelink:hover{
+    background-color: #e6e6e6;
+}
+
+.applelink{
+    background-color: white;
+    color: black;
+    margin-bottom: 24px; 
+}
+
+.applelink:hover{
+    background-color: #e6e6e6;
+}
+
+.icon{
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+}
+
+.lien 
+.applelink ,
+.googlelink, 
+.suivant,
+.oub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width:70%;
+    padding: 12px;
+    border-radius: 9999px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+.ligne{
+    margin: 20px 0px;
+    color: gray;
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.ligne::before,
+.ligne::after{
+    content: '';
+    position: absolute;
+    height: 1px;
+    background: gray;
+    top: 50%;
+    width: 40%;
+}
+
+.ligne::before{
+    left: 0;
+}
+
+.ligne::after{
+    right: 0;
+}
+
+input[type="text"]{
+    width: 70%;
+    padding: 12px;
+    margin: 0 0 16px 0;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color:  #121212;
+    color: white;
+    transition: border-color 0.2s ease;
+}
+input[type="text"]:focus{
+    border-color: #1d9bf0;
+    outline: none;
+}
+.suivant{
+    background-color: white;
+    color: black;
+    margin-bottom: 15px;
+}
+.suivant:hover{
+    background-color:  #e6e6e6;
+}
+.oub{
+    background-color: #000;
+    color: white;
+    border: 1px solid #444;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+    margin-bottom: 20px;
+}
+.oub:hover{
+    background-color: #1a1a1a;
+    /* color: #555; */
+}
+.compte{
+    font-size: 14px;
+}
+.compte a{
+    color: #1d9bf0;
+    text-decoration: none;
+    transition: text-decoration 0.2s ease;
+}
+.compte a:hover{
+    text-decoration: underline;
+}
+@media(max-width: 700px){
+     body {
+        align-items: center;
+      }
+
+      .connexion {
+        width: 90%;
+        align-items: center;
+        text-align: center;
+      }
+      .compte {
+        text-align: center;
+      }
+}
+
+
+

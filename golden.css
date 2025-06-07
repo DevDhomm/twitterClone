@@ -32,7 +32,7 @@
   padding: 1rem;
   width: 18.75rem;
   margin-bottom: 1rem;
-  margin-top: 3rem;
+  margin-top: 3.5rem;
 }
 .premium-box h2 {
   font-size: 18px;
@@ -102,6 +102,20 @@
 .trend-category {
   font-size: 13px;
   color: #6e767d;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.trend-category img {
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  color: #fff;
 }
 .trend-title {
   font-weight: 700;

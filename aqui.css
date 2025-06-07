@@ -61,7 +61,7 @@ body {
   align-items: center;
 }
 .pub1 input {
-  background-color: #000000;
+  background-color: #00000000;
   color: #fff;
   background: transparent;
   border: none;
@@ -74,9 +74,6 @@ body {
   font-size: 20px;
 }
 
-.pub1 input:hover {
-  background-color: #1a1919bb;
-}
 .pub img {
   width: 2.5rem;
   height: 2.5rem;
@@ -91,13 +88,14 @@ body {
   gap: 10px;
   margin: 5px auto;
   padding: 15px;
+  padding-bottom: 5px;
 }
 .pub2 div {
   display: flex;
   align-items: center;
 
   flex-direction: row;
-  gap: 10px;
+  gap: 15px;
 }
 .pub2 img {
   width: 1.25rem;
@@ -105,17 +103,16 @@ body {
   cursor: pointer;
 }
 .pub2 button {
-  background-color: #c9c5c5;
+  background-color: #c9c5c59d;
   color: #181818;
+  font-weight: 700;
+  font-size: 15px;
   border: none;
-  padding: 10px 20px;
+  padding: 7px 20px;
   cursor: pointer;
   width: 4.375rem;
   border-radius: 50px;
   transition: 0.2s ease-in-out;
-}
-.pub2 button:hover {
-  background-color: #1a1919bb;
 }
 
 .pub3 {
@@ -149,15 +146,38 @@ body {
 .tweet111 {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+.tweet14 {
+  display: flex;
+  align-items: center;
   gap: 10px;
 }
 
+.more {
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
 .post {
-  height: 18.75rem;
-  max-width: 31.25rem;
+  max-height: 30rem;
+  object-fit: cover;
+  max-width: 95%;
+  min-width: 70%;
+  width: auto;
   border: 0.1px solid #ffffff36;
   border-radius: 25px;
   margin-top: 10px;
+}
+video {
+  border: 0.1px solid #ffffff36;
+  border-radius: 25px;
+  margin-top: 10px;
+  max-width: 95%;
+  min-width: 70%;
 }
 
 .actions {
@@ -171,7 +191,37 @@ body {
 }
 
 .actions img {
-  height: 1.25rem;
-  width: 1.25rem;
+  height: 1rem;
+  width: 1rem;
   cursor: pointer;
+}
+.actions {
+  font-size: 0.9rem;
+}
+
+.grok {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  bottom: 7px;
+  right: 23px;
+  background-color: #000;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  border-radius: 15px;
+  padding: 0.4rem;
+  box-shadow: 0px 0px 8px 1px rgba(255, 253, 253, 0.397);
+  cursor: pointer;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease-in-out;
+}
+
+.grok:hover {
+  background-color: #1f243dbb;
+}
+
+.grok img {
+  height: 35px;
 }

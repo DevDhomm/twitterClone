@@ -16,7 +16,7 @@
   font-weight: bold;
   margin: 0;
 }
-.Aris img {
+.Aris .name img {
   width: 3.125rem;
   height: 3.125rem;
   border-radius: 50%;
@@ -46,8 +46,8 @@
 }
 
 .final {
-  color: rgb(96, 136, 235);
-  padding: 0.625rem 1.25rem;
+  color: rgb(8, 139, 247);
+
   font-size: 1rem;
   cursor: pointer;
   transition: 0.5s;
@@ -66,4 +66,14 @@
 .info {
   display: flex;
   flex-direction: column;
+}
+.pname {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.pname img {
+  height: 15px !important;
+  width: 15px !important;
 }
